@@ -1,0 +1,133 @@
+@charset "UTF-8";
+:root{
+    --cor1: #717573;
+    --cor2: #FFED10;
+    --cor3: #E39C2B;
+    --cor4: #121212;
+    --white: #E9FEEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor1);
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));/*1-direcao do gradiente , 2-cor que comeca, 3 cor que termina */
+    height: 130px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+header h1{
+    color : var(--cor4);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: var(--cor4);
+    font-weight: 500;
+}
+
+nav{
+        padding: 10px;
+        box-shadow: 1px 1px 1px var(--white);
+        background-color: var();
+}
+
+nav  a {
+    color: #121212;
+    padding: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+nav  a:hover {
+    background-color: var(--cor1)
+}
+
+nav a:visited{
+    color:#121212;
+}
+
+main{
+    background-color: white;
+    color: #121212;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto; 
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 2px 5px 0px;
+}
+
+main h2 {
+    background-image: linear-gradient(to bottom, var(--cor2), transparent);
+    padding: 5px 0;
+    margin: 15px 0;
+}
+
+main p {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0;
+    
+}
+
+main img {
+    width: 30%;
+    border: 10px double #121212;
+}
+
+iframe{
+    width: 90%;
+    border:  30px groove #717573;
+    margin-bottom: 15px;
+}
+
+pre{
+    font: 20px;
+}
+
+figcaption{
+    font-size: 10px;
+    color: #E39C2B;
+}
+aside{
+    background-color: #E39C2B;
+    padding: 20px 0;
+}
+
+aside ul {
+    list-style-position: inside;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+aside > h3{
+    color: var(--cor2);
+    padding: 10px;
+    margin: -20px -0.5px 0px -0.5px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    color: var(--white);
+    
+}

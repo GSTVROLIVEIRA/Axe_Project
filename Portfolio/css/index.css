@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background: linear-gradient(90deg, rgba(121,120,111,0.6839110644257703) 20%, rgba(62,32,9,0.4009978991596639) 76%);
+    font-family: 'Josefin Sans', sans-serif;
+    width: 94vw;
+    height: 92vh;
+    border: 1px solid black;  
+    margin: 4vh 3vw;
+    display: flex;
+    
+}
+
+.cabecalho{
+    padding: 30px; 
+}
+
+.cabecalho-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nome{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.cargo{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: flex-end;
+    justify-content:right;  
+    padding: 0px 0px 30px 30px;
+}

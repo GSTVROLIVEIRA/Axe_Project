@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(141, 121, 95);
+}
+
+h1{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img {
+    width: 600px;
+    height: 600px;
+}
+
+@media(max-width: 600px){
+    h1{
+        background-color: red;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+@media(min-width: 605px){
+    h1{
+        background-color: chartreuse;
+    }
+
+    img{
+        width:90%;
+    }
+}
